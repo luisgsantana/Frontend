@@ -92,7 +92,7 @@ function Login() {
       <Container.SideLogin>
         <Container.Logo src={logo} />
         <Container.Form>
-          <RedeTextField descricao="Email" valor={email} onChange={(evt) => setEmail(evt.target.value)} />
+          <RedeTextField descricao="Email de cadastro" valor={email} onChange={(evt) => setEmail(evt.target.value)} />
           <RedeTextField
             descricao="Senha"
             tipo="password"
