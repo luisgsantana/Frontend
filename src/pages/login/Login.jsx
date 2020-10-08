@@ -94,7 +94,7 @@ function Login() {
         <Container.Form>
           <RedeTextField descricao="Email de cadastro" valor={email} onChange={(evt) => setEmail(evt.target.value)} />
           <RedeTextField
-            descricao="Password"
+            descricao="Sua senha"
             tipo="password"
             valor={password}
             onChange={(evt) => setPassword(evt.target.value)}
